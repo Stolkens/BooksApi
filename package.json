@@ -1,0 +1,11 @@
+{
+  "name": "BooksApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": "git@github.com:Stolkens/BooksApi.git",
+  "author": "Stolkens <92957952+Stolkens@users.noreply.github.com>"
+}

@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\Projekty\Kodilla\modul-30\BooksApi\.yarn\releases\yarn-1.22.19.cjs init
+
+PATH: 
+  C:\Users\macie\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\macie\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\macie\AppData\Local\Microsoft\WindowsApps;C:\Users\macie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\macie\AppData\Local\GitHubDesktop\bin;C:\Users\macie\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (D:\Projekty\Kodilla\modul-30\BooksApi\.yarn\releases\yarn-1.22.19.cjs:100078:29)
+      at Object.<anonymous> (D:\Projekty\Kodilla\modul-30\BooksApi\.yarn\releases\yarn-1.22.19.cjs:93141:38)
+      at Generator.next (<anonymous>)
+      at step (D:\Projekty\Kodilla\modul-30\BooksApi\.yarn\releases\yarn-1.22.19.cjs:310:30)
+      at D:\Projekty\Kodilla\modul-30\BooksApi\.yarn\releases\yarn-1.22.19.cjs:321:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+npm manifest: 
+  {
+    "name": "BooksApi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "repository": "git@github.com:Stolkens/BooksApi.git",
+    "author": "Stolkens <92957952+Stolkens@users.noreply.github.com>"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
