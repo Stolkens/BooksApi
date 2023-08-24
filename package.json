@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "mocha": "6.2.1"
   },
   "repository": "git@github.com:Stolkens/BooksApi.git",
   "author": "Stolkens <92957952+Stolkens@users.noreply.github.com>"
